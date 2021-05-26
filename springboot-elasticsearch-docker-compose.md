@@ -1,6 +1,7 @@
 ## Dockerizing Springboot Elasticsearch application with docker compose
 
-So with docker now supporting Apple Silicon, I wanted to try something on my brand new Mac Mini M1.  Hence, I decided to create an elastic 
+So all this started when I decided to create an application that suggests food recipes based on the ingredients you have at your home. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3NjAxNjAyLDEwMTQ0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbLTE0Nzg0NjM0MTIsNjg3NjAxNjAyLDEwMT
+Q0NDEwMjFdfQ==
 -->
