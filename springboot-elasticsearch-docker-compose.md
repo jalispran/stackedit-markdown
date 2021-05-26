@@ -65,7 +65,7 @@ That felt nice. Earlier my application was not running but now my application ca
 
 By the way, I just found out that docker compose creates a `default` network. So maybe I unnecessarily created a bridge network and maybe the containers can actually talk to each other on their own. Who knows?! Well, not me. 
 
-Anyhow, the problem I face now is that 
+Anyhow, the problem I face now, is that I need to ask spring boot to wait untill elastic search cluster is up and running before spring boot tries to connect to it. Docker compose has a `depends_on` 
 
 
 
@@ -73,6 +73,6 @@ Anyhow, the problem I face now is that
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTI3MjE1MCwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbLTkzNTY0NDM3NCwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
