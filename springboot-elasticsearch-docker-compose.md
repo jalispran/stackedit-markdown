@@ -53,26 +53,26 @@ There is a reason for it (or thats what I thought at the time). To keep the imag
 
 Finally, after wasting one day trying to fix this, I gave up and shifted to good old `openJdk:11`. Although I had to compromise the image size (which increased 3x), atleast I got the service running.
 
-(Un)fortunately, I am unable to reproduce the same error anymore so I can not upload a screenshot. However, if you are feeling curious, this is what I was using `gcr.io/distroless/java:11`. Here is my observation
+(Un)fortunately, I am unable to reproduce the same error anymore so I can not upload a screenshot. However, if you are feeling curious, this is what I was using `gcr.io/distroless/java:11`. And here is my observation
 
 |Base Image| Final Image Size  |
 |--|--|
 |`gcr.io/distroless/java:11`|257 MB|
 |`openjdk:11`|695 MB|
 
-Now, i am by no means an expert in this. I am not even aware of the differences in those two base images, but that is a striking difference for me. 
+Now, I am by no means an expert in this. I am not even aware of the differences in those two base images, but that is a striking difference for me. 
 
 5. Docker containers don't connect to other containers on their own. Or do they? 🤔
 
 When I started off, I did not know that you need special configuration to enable the containers to talk to each other. 
 
-So I ended up creating a bridge network in my `docker-compose.yml`. Now everything works as expected. Both my containers (springboot and elasticsearch) get connected to the new bridge network and they can doscover each other. However, there is a caveat.
+So I ended up creating a bridge network in my `docker-compose.yml`. Now everything works as expected. Both my containers (springboot and elasticsearch) get connected to the new bridge network and they can discover each other. However, there is a caveat.
 
-When running locally, you can specify `localhost:9092` for springboot to connect to the elastic search docker. However, its a different story in the container. 
+When running locally, you can specify `localhost:9092` for springboot to connect to the elasticsearch docker. However, its a different story in the container. 
 
 When running in a container, the hostname has to be replaced with the container name. So, the new address becomes `<elasticsearch-container-name>:9092`
 
-I dont want to remember this caveat everytime I need to deploy something. So I created an environment variable, called it `ELASTIC_HOST`. I am setting its value in my `docker-compose.yml`. And I am reading it in my `application.yml` file.
+I don't want to remember this caveat every time I need to deploy something. So I created an environment variable, called it `ELASTIC_HOST`. I am setting its value in my `docker-compose.yml`. And I am reading it in my `application.yml` file.
 
 That felt nice. Earlier my application was not running but now my application can run and connect to the elastic docker sometimes. Thats progress!
 
@@ -106,7 +106,7 @@ Do this-
 I am planning o
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDk1MzMwNSwtODU4NjEzNTMxLC0xMz
+eyJoaXN0b3J5IjpbLTQxOTEwOTI5NSwtODU4NjEzNTMxLC0xMz
 Q2Mzk2MDg3LC0xMTYyNDI4OTIzLDEyMjkzNDI1NjEsLTczOTEx
 Nzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQxMDIxXX0=
 -->
