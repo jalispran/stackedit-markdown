@@ -51,7 +51,11 @@ There is a reason for it. To keep the image size to a minimum, I was using a dis
 
 Finally, after wasting one day trying to fix this, I gave up and shifted to good old `openJdk:11`. Although I had to compromise the image size (which increased 3x), atleast I got the service running.
 
-(Un)fortunately, I am unable to reproduce the same error anymore so I can not upload a screenshot. However, if you are feeling curious, this is what I was using ``
+(Un)fortunately, I am unable to reproduce the same error anymore so I can not upload a screenshot. However, if you are feeling curious, this is what I was using `gcr.io/distroless/java:11`. Here is my observation
+|Base Image| Final Image Size  |
+|--|--|
+|  |  |
+
 
 5. Docker containers don't connect to other containers on their own. Or do they? 🤔
 
@@ -96,7 +100,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTIwNzIxLC04NTg2MTM1MzEsLTEzND
-YzOTYwODcsLTExNjI0Mjg5MjMsMTIyOTM0MjU2MSwtNzM5MTE3
-NzU1LC0xNDU1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbMjE0MzY4NTU1MywtODU4NjEzNTMxLC0xMz
+Q2Mzk2MDg3LC0xMTYyNDI4OTIzLDEyMjkzNDI1NjEsLTczOTEx
+Nzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQxMDIxXX0=
 -->
