@@ -7,10 +7,11 @@ This is the tech stack that I want to use:
 * React Native with Expo for frontend and
 * Elastic Search for full text search queries on the recipes. 
 
-I have already found a dataset of around 7k recipes 
-Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. 
+I have already found a dataset of around 7k recipes on kaggle. So I am all set for development.
+
+Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum. Obviously, I 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3MTE0MzI0LDY4NzYwMTYwMiwxMDE0ND
-QxMDIxXX0=
+eyJoaXN0b3J5IjpbLTI0NTE3OTMzMiw2ODc2MDE2MDIsMTAxND
+Q0MTAyMV19
 -->
