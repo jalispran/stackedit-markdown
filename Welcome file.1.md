@@ -1,4 +1,6 @@
-Spring Boot Elastic Search 
+## Spring Boot Elasticsearch Docker Compose
+
+This blog post outlines my experience with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODU4NTYyMiwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTQxNDg0NTg2OSwtMzMyNDU1MzYzXX0=
 -->
