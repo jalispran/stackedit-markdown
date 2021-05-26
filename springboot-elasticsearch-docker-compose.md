@@ -47,11 +47,11 @@ Spring has a [great tutorial](https://spring.io/guides/gs/spring-boot-docker/) a
 
 The weirdest thing was, my app would run perfectly fine in development mode. But it would fail when I ran it in container.
 
-There is a reson for it. To keep the image size to a minimum, I was using a distroless java 11 image. On the other hand, on my dev machine I was using `OpenJdk 11`. This java 11 distroless image was buggy as far as I can tell. 
+There is a reason for it. To keep the image size to a minimum, I was using a distroless java 11 image. On the other hand, on my dev machine I was using `OpenJdk 11`. This java 11 distroless image was buggy as far as I can tell. 
 
 Finally, after wasting one day trying to fix this, I gave up and shifted to good old `openJdk:11`. Although I had to compromise the image size (which increased 3x), atleast I got the service running.
 
-(Un)fortunately, i am 
+(Un)fortunately, I am unable to reproduce the same error anymore so I can not upload a screenshot. However, if you are feeling curious, this is what I was using ``
 
 5. Docker containers don't connect to other containers on their own. Or do they? 🤔
 
@@ -96,7 +96,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4NTA5NjMsLTg1ODYxMzUzMSwtMTM0Nj
-M5NjA4NywtMTE2MjQyODkyMywxMjI5MzQyNTYxLC03MzkxMTc3
-NTUsLTE0NTU0MzUyOTcsMTAxNDQ0MTAyMV19
+eyJoaXN0b3J5IjpbMTQ3OTIwNzIxLC04NTg2MTM1MzEsLTEzND
+YzOTYwODcsLTExNjI0Mjg5MjMsMTIyOTM0MjU2MSwtNzM5MTE3
+NzU1LC0xNDU1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
