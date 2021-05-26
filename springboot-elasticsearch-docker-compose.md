@@ -37,7 +37,7 @@ Docker is used to containerize your application while docker compose is a discri
 
 So now, the plan has been modified a bit, I am going to have two containers and I will run them using `docker compose up`. Great, I am still aiming for a single command deplyment. 
 
-Getting started with docker compose is the best place to start if 
+[Getting started with docker compose](https://docs.docker.com/compose/gettingstarted/) is the best place to start if you are curious.
 
 3. Getting elasticsearch to run is amazingly easy with docker
 
@@ -49,7 +49,7 @@ Spring has a [great tutorial](https://spring.io/guides/gs/spring-boot-docker/) a
 
 The weirdest thing was, my app would run perfectly fine in development mode. But it would fail when I ran it in container.
 
-There is a reason for it. To keep the image size to a minimum, I was using a distroless java 11 image. On the other hand, on my dev machine I was using `OpenJdk 11`. This java 11 distroless image was buggy as far as I can tell. 
+There is a reason for it (or thats what I thought at the time). To keep the image size to a minimum, I was using a distroless java 11 base image. On the other hand, on my dev machine I was using `OpenJdk 11`. This java 11 distroless image was buggy as far as I can tell. 
 
 Finally, after wasting one day trying to fix this, I gave up and shifted to good old `openJdk:11`. Although I had to compromise the image size (which increased 3x), atleast I got the service running.
 
@@ -104,8 +104,9 @@ Do this-
 
 
 I am planning o
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIzMDkwMjQsLTg1ODYxMzUzMSwtMT
-M0NjM5NjA4NywtMTE2MjQyODkyMywxMjI5MzQyNTYxLC03Mzkx
-MTc3NTUsLTE0NTU0MzUyOTcsMTAxNDQ0MTAyMV19
+eyJoaXN0b3J5IjpbLTcyNDk1MzMwNSwtODU4NjEzNTMxLC0xMz
+Q2Mzk2MDg3LC0xMTYyNDI4OTIzLDEyMjkzNDI1NjEsLTczOTEx
+Nzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQxMDIxXX0=
 -->
