@@ -23,7 +23,7 @@ This is my development environment:
 
 So the following is my learning from setting all this up. 
 
-1. Docker now has sufor Apple Silicon 🤩
+1. Docker now has support for Apple Silicon 🤩
 
 2. Use docker compose
 I quickly realised that for a setup like this, I will have to use `docker compose`. If you are new to docker or docker compose, let me quickly clarify this.
@@ -47,6 +47,6 @@ Even though Spring has a great tutorial about how to dockerize spring boot apps 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzkzMzYwMywtNzM5MTE3NzU1LC0xND
-U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbNTYzOTQxNjgyLC03MzkxMTc3NTUsLTE0NT
+U0MzUyOTcsMTAxNDQ0MTAyMV19
 -->
