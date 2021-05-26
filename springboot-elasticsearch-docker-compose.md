@@ -78,13 +78,13 @@ That felt nice. Earlier my application was not running but now my application ca
 
 By the way, I just found out that docker compose creates a `default` network. So maybe I unnecessarily created a bridge network and maybe the containers can actually talk to each other on their own. Who knows?! Well, not me. 
 
-Anyhow, the problem I face now, is that I need to ask spring boot to wait untill elasticsearch cluster is up and running before spring boot tries to connect to it. Docker compose has a `depends_on` option to express the startup and shutdown order. However, this wont work the way you expect it to. And its understandable. 
+Anyhow, the problem I face now, is that I need to ask spring boot to wait until elasticsearch cluster is up and running before spring boot tries to connect to it. Docker compose has a `depends_on` option to express the startup and shutdown order. However, this wont work the way you expect it to. And its understandable. 
 
-So `depends_on` will wait for the container to run before it starts the dependant containers. However, a container in running state does not mean that the application is in running state. For example, in case of a datatbase, the database container might be in running state but that does not mean that the database is accepting connections yet. 
+So `depends_on` will wait for the container to run before it starts the dependant containers. However, a container in running state does not mean that the application is in running state. For example, in case of a database, the database container might be in running state but that does not mean that the database is accepting connections yet. 
 
 Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to retry on connection failure. However, the more widely used approach seems to be a busy waiting script that keeps checking if the service is up. 
 
-I am planning to go the recommended route of retrying the connection on failure. This functionality is not yet availble in spring boot but its under consideration. Meanwhile, i will implement my own.
+I am planning to go the recommended route of retrying the connection on failure. This functionality is not yet available in spring boot but its under consideration. Meanwhile, i will implement my own.
 
 
 
@@ -106,7 +106,7 @@ Do this-
 I am planning o
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTEwOTI5NSwtODU4NjEzNTMxLC0xMz
-Q2Mzk2MDg3LC0xMTYyNDI4OTIzLDEyMjkzNDI1NjEsLTczOTEx
-Nzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQxMDIxXX0=
+eyJoaXN0b3J5IjpbMzI5MTg5MzA2LC04NTg2MTM1MzEsLTEzND
+YzOTYwODcsLTExNjI0Mjg5MjMsMTIyOTM0MjU2MSwtNzM5MTE3
+NzU1LC0xNDU1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
