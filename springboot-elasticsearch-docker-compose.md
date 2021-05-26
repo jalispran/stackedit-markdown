@@ -18,22 +18,24 @@ This is my development environment:
 
 So the following is my learning from setting all this up. 
 
-1. Use docker compose
+1. Docker is now supported for Apple Silicon 🤩
+
+2. Use docker compose
 I quickly realised that for a setup like this, I will have to use `docker compose`. If you are new to docker or docker compose, let me quickly clarify this.
 
 Docker is used to containerize your application while docker compose is a discriptor about how multiple containers behave in each others presence. Do they share a network? Do they share a volume? What about environment variables? In what order should they be run? Do you need to scale them? If yes, how many containers would you need? 
 
 So now, the plan has been modified a bit, I am going to have two containers and I will run them using `docker compose up`. Great, I am still aiming for a single command deplyment. 
 
-2. Getting elasticsearch to run is amazingly easy with docker
+3. Getting elasticsearch to run is amazingly easy with docker
 
-Just got to the elastic search website an
+Just got to the elastic search website and you will find a `docker run` command for a single node development 
 
 
 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDI4NjYyMCwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbMTQwOTQ1NDYwNCwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
