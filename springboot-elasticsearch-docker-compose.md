@@ -42,7 +42,9 @@ Just go to the elastic search website and you will find a `docker run` command f
 Spring has a great tutorial about how to dockerize spring boot apps and how to divide them in layers for efficiency. But I still screwed up mine and had to waste a day figuring out what was the issue. 
 
 In my case, to keep the image size to a minimum, I was using a distroless java 11 image and ended up getting the following error. 
+📷📸📷📸📷📸📸📷📸📷📸📷📸📷📸📷📸📷📸📷📸
 
+Finally, after wasting one day trying to fix this, I finally gave up and shifted to good old `openJdk:11`. Although I had to compromise the image size (which increased 3x), atl
 
 
 
@@ -51,6 +53,6 @@ In my case, to keep the image size to a minimum, I was using a distroless java 1
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA1NTQyNTQsLTczOTExNzc1NSwtMT
-Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
+eyJoaXN0b3J5IjpbLTEwNzMzNjg5OCwtNzM5MTE3NzU1LC0xND
+U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
