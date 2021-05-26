@@ -69,7 +69,7 @@ Anyhow, the problem I face now, is that I need to ask spring boot to wait untill
 
 So `depends_on` will wait for the container to run before it starts the dependant containers. However, a container in running state does not mean that the application is in running state. For example, in case of a datatbase, the database container might be in running state but that does not mean that the database is accepting connections yet. 
 
-Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to 
+Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to retry the connection on failure. However, the more widely used approach seems to be a busy waiting script that keeps checking if the service is up. 
 
 
 
@@ -77,6 +77,6 @@ Docker compose can not know the application readiness and hence this needs to be
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzUzNjE4NjIsLTczOTExNzc1NSwtMT
-Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
+eyJoaXN0b3J5IjpbNjE4ODE4NjQ5LC03MzkxMTc3NTUsLTE0NT
+U0MzUyOTcsMTAxNDQ0MTAyMV19
 -->
