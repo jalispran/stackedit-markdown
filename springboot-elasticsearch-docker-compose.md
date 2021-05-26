@@ -78,11 +78,13 @@ That felt nice. Earlier my application was not running but now my application ca
 
 By the way, I just found out that docker compose creates a `default` network. So maybe I unnecessarily created a bridge network and maybe the containers can actually talk to each other on their own. Who knows?! Well, not me. 
 
-Anyhow, the problem I face now, is that I need to ask spring boot to wait until elasticsearch cluster is up and running before spring boot tries to connect to it. Docker compose has a `depends_on` option to express the startup and shutdown order. However, this wont work the way you expect it to. And its understandable. 
+Anyhow, the problem I face now, is that I need to ask spring boot to wait until elasticsearch cluster is up and running before spring boot tries to connect to it. Docker compose has a `depends_on` option to express the startup and shutdown order.  More about this [here](https://docs.docker.com/compose/startup-order/).
+
+However, this wont work the way you expect it to. And its understandable. 
 
 So `depends_on` will wait for the container to run before it starts the dependant containers. However, a container in running state does not mean that the application is in running state. For example, in case of a database, the database container might be in running state but that does not mean that the database is accepting connections yet. 
 
-Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to retry on connection failure. However, the more widely used approach seems to be a busy waiting script that keeps checking if the service is up.  More about this [here](https://docs.docker.com/compose/startup-order/#:~:text=However,%20for%20startup%20Compose%20does,%29%20-%20only%20until%20it%27s%20running.).
+Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to retry on connection failure. However, the more widely used approach seems to be a busy waiting script that keeps checking if the service is up. 
 
 I am planning to go the recommended route of retrying the connection on failure. This functionality is not yet available in spring boot. There is an open issue about this [#4779](https://github.com/spring-projects/spring-boot/issues/4779). Meanwhile, i will implement my own.
 
@@ -106,8 +108,8 @@ Do this-
 I am planning o
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2NzYyMTM5LDEzMTI5MDAzMjMsLTg1OD
-YxMzUzMSwtMTM0NjM5NjA4NywtMTE2MjQyODkyMywxMjI5MzQy
-NTYxLC03MzkxMTc3NTUsLTE0NTU0MzUyOTcsMTAxNDQ0MTAyMV
-19
+eyJoaXN0b3J5IjpbMTM4NzgyNjgwMCwxMzEyOTAwMzIzLC04NT
+g2MTM1MzEsLTEzNDYzOTYwODcsLTExNjI0Mjg5MjMsMTIyOTM0
+MjU2MSwtNzM5MTE3NzU1LC0xNDU1NDM1Mjk3LDEwMTQ0NDEwMj
+FdfQ==
 -->
