@@ -9,11 +9,13 @@ This is the tech stack that I want to use:
 
 I have already found a dataset of around 7k recipes on kaggle. So I am all set for development.
 
-Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually create a cluster for elastic search. Obviously, I am going the docker route. I am going to dockerize my application and run it with `docker run` command, or at least thats the plan.
+Now, this application is not mwith docker now supporting Apple Silicon, I wanted to try something on my brand new Mac Mini M1.  I was also exploring Elastic Search, so I thought this is a greant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually create a cluster for elastic search. Obviously, I am going the docker route. I am going to dockerize my application and run it with `docker run` command, or at least thats the plan.
 
 This is my development environment:
-* Mac Mini M1 with 16GB Memory
+* Mac Mini M1 with 16GB Memoryopportunity to combine both these things and build a simple service.
+
+Since Elastic Search 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU0MzUyOTcsNjg3NjAxNjAyLDEwMT
-Q0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbLTQ4NDk4ODY0NywtMTQ1NTQzNTI5NywxMD
+E0NDQxMDIxXX0=
 -->
