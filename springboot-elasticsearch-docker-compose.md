@@ -57,7 +57,9 @@ So I ended up creating a bridge network in my `docker-compose.yml`. Now everythi
 
 When running locally, you can specify `localhost:9092` for springboot to connect to the elastic search docker. However, its a different story in the container. 
 
-When running in a container, the hostname has to be replaced with the container name. So, the new address becomes `
+When running in a container, the hostname has to be replaced with the container name. So, the new address becomes `<elasticsearch-container-name>:9092`
+
+I dont want to remember this, so I created an environment variable and I am setting its value in my `docker-compose.yml`. At the se time, on my dev environment, I dont have 
 
 
 
@@ -65,6 +67,6 @@ When running in a container, the hostname has to be replaced with the container 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTQ0MzgxMSwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbLTc1NzY2NDgxNiwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
