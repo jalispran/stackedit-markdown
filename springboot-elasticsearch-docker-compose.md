@@ -55,7 +55,9 @@ When I started off, I did not know that you need special configuration to enable
 
 So I ended up creating a bridge network in my `docker-compose.yml`. Now everything works as expected. Both my containers (springboot and elasticsearch) get connected to the new bridge network and they can doscover each other. However, there is a caveat.
 
-When running locally. 
+When running locally, you can specify `localhost:9092` for springboot to connect to the elastic search docker. However, its a different story in the container. 
+
+When running in a container, the hostname has to be replaced with the container name. So, the new address becomes `
 
 
 
@@ -63,6 +65,6 @@ When running locally.
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDM0MjUxNCwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbMjA3OTQ0MzgxMSwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
