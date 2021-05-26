@@ -37,9 +37,11 @@ Docker is used to containerize your application while docker compose is a discri
 
 So now, the plan has been modified a bit, I am going to have two containers and I will run them using `docker compose up`. Great, I am still aiming for a single command deplyment. 
 
+Getting started with docker compose is the best place to start if 
+
 3. Getting elasticsearch to run is amazingly easy with docker
 
-Just go to the elastic search website and you will find a `docker run` command for a single node dev deployment and a `docker compose` for a more elaborate 3 node cluster setup. I did the best of both and selected single node deployment with docker compose.
+Just go to the [elastic search website](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html) and you will find a `docker run` command for a single node dev deployment and a `docker compose` for a more elaborate 3 node cluster setup. I did the best of both and selected single node deployment with docker compose.
 
 4. Dockerizing Spring Boot is easy once you know what not to do
 
@@ -103,7 +105,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc3NjMwMTAsLTg1ODYxMzUzMSwtMT
+eyJoaXN0b3J5IjpbLTE5ODIzMDkwMjQsLTg1ODYxMzUzMSwtMT
 M0NjM5NjA4NywtMTE2MjQyODkyMywxMjI5MzQyNTYxLC03Mzkx
 MTc3NTUsLTE0NTU0MzUyOTcsMTAxNDQ0MTAyMV19
 -->
