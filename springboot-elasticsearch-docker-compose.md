@@ -9,9 +9,11 @@ This is the tech stack that I want to use:
 
 I have already found a dataset of around 7k recipes on kaggle. So I am all set for development.
 
-Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum. Obviously, I 
+Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum. Obviously, I am going the docker route. I am going to dockerize my application and run it with `docker run` command, or at least thats the plan.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTE3OTMzMiw2ODc2MDE2MDIsMTAxND
-Q0MTAyMV19
+eyJoaXN0b3J5IjpbLTE1ODcyNzkyOTgsNjg3NjAxNjAyLDEwMT
+Q0NDEwMjFdfQ==
 -->
