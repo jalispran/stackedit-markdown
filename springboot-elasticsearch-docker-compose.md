@@ -25,7 +25,9 @@ So the following is my learning from setting all this up.
 
 1. Docker now has support for Apple Silicon 🤩
 
-However, it still requires `Rosetta 2` as some binaries are yet to make the transition to Apple Silicon
+However, it still requires `Rosetta 2` as some binaries are yet to make the transition to Apple Silicon. If you need, you can use this command to install rosetta.
+
+    softwareupdate 
 
  
 
@@ -96,7 +98,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjY3MjAyNCwtMTE2MjQyODkyMywxMj
-I5MzQyNTYxLC03MzkxMTc3NTUsLTE0NTU0MzUyOTcsMTAxNDQ0
-MTAyMV19
+eyJoaXN0b3J5IjpbNzMxODM5NTUzLC0xMTYyNDI4OTIzLDEyMj
+kzNDI1NjEsLTczOTExNzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQx
+MDIxXX0=
 -->
