@@ -25,6 +25,10 @@ So the following is my learning from setting all this up.
 
 1. Docker now has support for Apple Silicon 🤩
 
+However, it still requires `Rosetta 2` as some binaries are yet to make the transition to Apple Silicon
+
+ 
+
 2. Use docker compose
 
 I quickly realised that for a setup like this, I will have to use `docker compose`. If you are new to docker or docker compose, let me quickly clarify this.
@@ -92,7 +96,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4MTczNzExLC0xMTYyNDI4OTIzLDEyMj
-kzNDI1NjEsLTczOTExNzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQx
-MDIxXX0=
+eyJoaXN0b3J5IjpbMTg0NjY3MjAyNCwtMTE2MjQyODkyMywxMj
+I5MzQyNTYxLC03MzkxMTc3NTUsLTE0NTU0MzUyOTcsMTAxNDQ0
+MTAyMV19
 -->
