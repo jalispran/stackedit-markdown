@@ -77,7 +77,13 @@ I am planning to go the recommended route of retrying the connection on failure.
 
 
 Do this-
-1. 
+1. Wait for script links
+2. Github retry issue link
+3. Error snapshot
+4. Kaggle dataset
+5. Github repo
+6. Distroless jdk name and image size comparison
+7. 
 
 
 
@@ -85,6 +91,6 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjAwMTU4MiwtNzM5MTE3NzU1LC0xND
-U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbLTEyNTEzNzMzNTcsLTczOTExNzc1NSwtMT
+Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
 -->
