@@ -15,6 +15,7 @@ This is my development environment:
 * Mac Mini M1 with 16GB Memory
 * Java 11
 * Spring Boot 2.5.0
+* Maven
 
 So the following is my learning from setting all this up. 
 
@@ -29,7 +30,7 @@ So now, the plan has been modified a bit, I am going to have two containers and 
 
 3. Getting elasticsearch to run is amazingly easy with docker
 
-Just got to the elastic search website and you will find a `docker run` command for a single node dev deployment and a `docker compose` for a more elaborate 3 node cluster setup. I did the best of both and selected single node deployment with docker compose.
+Just go to the elastic search website and you will find a `docker run` command for a single node dev deployment and a `docker compose` for a more elaborate 3 node cluster setup. I did the best of both and selected single node deployment with docker compose.
 
 4. Dockerizing Spring Boot is once you know what not to do
 
@@ -42,6 +43,6 @@ Even though Spring has a great tutorial about how to dockerize spring boot apps 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg0NjU5NjYsLTczOTExNzc1NSwtMT
-Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
+eyJoaXN0b3J5IjpbODY1NzgzMjEsLTczOTExNzc1NSwtMTQ1NT
+QzNTI5NywxMDE0NDQxMDIxXX0=
 -->
