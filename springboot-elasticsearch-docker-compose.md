@@ -18,9 +18,14 @@ This is my development environment:
 
 So the following is my learning from setting all this up. 
 
-1. 
+1. Use docker compose
+I quickly realised that for a setup like this, I will have to use `docker compose`. If you are new to docker or docker compose, let me quickly 
+
+
+
+
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNTE1NzM5LC03MzkxMTc3NTUsLTE0NT
-U0MzUyOTcsMTAxNDQ0MTAyMV19
+eyJoaXN0b3J5IjpbLTEwNjMyMDEwMDksLTczOTExNzc1NSwtMT
+Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
 -->
