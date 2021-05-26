@@ -11,6 +11,17 @@ date: '2021-05-27'
 
 ---
 
+<hr>
+<p>title: Dockerizing Springboot Elasticsearch Application<br>
+author: pranjal<br>
+tags: ‘docker, springboot, elasticsearch, docker-compose’<br>
+categories: blog<br>
+excerpt: &gt;-<br>
+My learnings from dockerizing springboot and elasticsearch application using<br>
+docker compose<br>
+featuredImage: ‘<a href="https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg">https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg</a>’<br>
+date: ‘2021-05-27’</p>
+<hr>
 <h2 id="dockerizing-springboot-elasticsearch-application-with-docker-compose">Dockerizing Springboot Elasticsearch application with docker compose</h2>
 <p>So all this started when I decided to create an application that recommends food recipes based on the ingredients you have at your home.</p>
 <p>This is the tech stack that I want to use:</p>
@@ -58,7 +69,6 @@ date: '2021-05-27'
 <p>There is a reason for it (or thats what I thought at the time). To keep the image size to a minimum, I was using a distroless java 11 base image. On the other hand, on my dev machine I was using <code>OpenJdk 11</code>. This java 11 distroless image was buggy as far as I can tell.</p>
 <p>Finally, after wasting one day trying to fix this, I gave up and shifted to good old <code>openJdk:11</code>. Although I had to compromise the image size (which increased 3x), atleast I got the service running.</p>
 <p>(Un)fortunately, I am unable to reproduce the same error anymore so I can not upload a screenshot. (Murphy’s Law here 😅) However, if you are feeling curious, this is what I was using <code>gcr.io/distroless/java:11</code>. And here is my observation</p>
-
 <table>
 <thead>
 <tr>
