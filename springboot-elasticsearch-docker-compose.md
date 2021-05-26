@@ -71,7 +71,13 @@ So `depends_on` will wait for the container to run before it starts the dependan
 
 Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to retry the connection on failure. However, the more widely used approach seems to be a busy waiting script that keeps checking if the service is up. 
 
-I am planning to go the recommended route of retrying the connection on failure. It looks like this functionaland implement a retry mechanism. 
+I am planning to go the recommended route of retrying the connection on failure. This functionality is not yet availble in spring boot but its under consideration. Meanwhile, i will implement my own.
+
+
+
+
+Do this-
+1. 
 
 
 
@@ -79,6 +85,6 @@ I am planning to go the recommended route of retrying the connection on failure.
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzcwMDMxNSwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbMTI2NjAwMTU4MiwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
