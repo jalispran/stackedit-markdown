@@ -9,7 +9,7 @@ This is the tech stack that I want to use:
 
 I have already found a dataset of around 7k recipes on kaggle. So I am all set for development.
 
-Now, this application is not mwith docker now supporting Apple Silicon, I wanted to try something on my brand new Mac Mini M1.  I was also exploring Elastic Search, so I thought this is a greant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually create a cluster for elastic search. Obviously, I am going the docker route. I am going to dockerize my application and run it with `docker run` command, or at least thats the plan.
+Now, this application is not mwith dockeeant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually create a cluster for elastic search. Obviously, I am going the docker route. I am going to dockerize my application and run it with `docker run` command, or at least thats the plan.
 
 This is my development environment:
 * Mac Mini M1 with 16GB Memory
@@ -32,9 +32,9 @@ So now, the plan has been modified a bit, I am going to have two containers and 
 
 Just go to the elastic search website and you will find a `docker run` command for a single node dev deployment and a `docker compose` for a more elaborate 3 node cluster setup. I did the best of both and selected single node deployment with docker compose.
 
-4. Dockerizing Spring Boot is once you know what not to do
+4. Dockerizing Spring Boot is easy once you know what not to do
 
-Even though Spring has a great tutorial about how to dockerize spring boot apps and dividing them in layers for efficiency, I still screwed up mine and had to waste a day figuring out what was the issue. 
+Even though Spring has a great tutorial about how to dockerize spring boot apps and how to divide them in layers for efficiency. But I still screwed up mine and had to waste a day figuring out what was the issue. 
 
 
 
@@ -43,6 +43,6 @@ Even though Spring has a great tutorial about how to dockerize spring boot apps 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1NzgzMjEsLTczOTExNzc1NSwtMTQ1NT
-QzNTI5NywxMDE0NDQxMDIxXX0=
+eyJoaXN0b3J5IjpbLTExMTczMzg1MCwtNzM5MTE3NzU1LC0xND
+U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
