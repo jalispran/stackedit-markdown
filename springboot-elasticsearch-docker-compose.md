@@ -9,7 +9,7 @@ This is the tech stack that I want to use:
 
 I have already found a dataset of around 7k recipes on kaggle. So I am all set for development.
 
-Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually do a full fledgfor elastic search. 
+Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually do a full fledged for elastic search cluster deployment.
 
 I am aiming for a single command deployment. 
 
@@ -69,7 +69,7 @@ Anyhow, the problem I face now, is that I need to ask spring boot to wait untill
 
 So `depends_on` will wait for the container to run before it starts the dependant containers. However, a container in running state does not mean that the application is in running state. For example, in case of a datatbase, the database container might be in running state but that does not mean that the database is accepting connections yet. 
 
-Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to retry the connection on failure. However, the more widely used approach seems to be a busy waiting script that keeps checking if the service is up. 
+Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to retry on connection failure. However, the more widely used approach seems to be a busy waiting script that keeps checking if the service is up. 
 
 I am planning to go the recommended route of retrying the connection on failure. This functionality is not yet availble in spring boot but its under consideration. Meanwhile, i will implement my own.
 
@@ -92,6 +92,6 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTg0OTY0NCwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbMTIyOTM0MjU2MSwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
