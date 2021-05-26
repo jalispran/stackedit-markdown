@@ -53,6 +53,7 @@ Finally, after wasting one day trying to fix this, I gave up and shifted to good
 
 When I started off, I did not know that you need special configuration to enable the containers to talk to each other. 
 
+So I ended up creating a bridge network in my `docker-compose.yml`
 
 
 
@@ -60,6 +61,6 @@ When I started off, I did not know that you need special configuration to enable
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTI4MzUxLC03MzkxMTc3NTUsLTE0NT
+eyJoaXN0b3J5IjpbMzI4MDIxNDQyLC03MzkxMTc3NTUsLTE0NT
 U0MzUyOTcsMTAxNDQ0MTAyMV19
 -->
