@@ -27,7 +27,7 @@ So the following is my learning from setting all this up.
 
 However, it still requires `Rosetta 2` as some binaries are yet to make the transition to Apple Silicon. If you need, you can use this command to install Rosetta 2.
 
-    softwareupdate --install-rosetta
+![enter image description here](https://i.imgur.com/YUropvW.png)
 
 2. Use docker compose
 
@@ -96,7 +96,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYzOTYwODcsLTExNjI0Mjg5MjMsMT
-IyOTM0MjU2MSwtNzM5MTE3NzU1LC0xNDU1NDM1Mjk3LDEwMTQ0
-NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbLTg1ODYxMzUzMSwtMTM0NjM5NjA4NywtMT
+E2MjQyODkyMywxMjI5MzQyNTYxLC03MzkxMTc3NTUsLTE0NTU0
+MzUyOTcsMTAxNDQ0MTAyMV19
 -->
