@@ -9,7 +9,7 @@ This is the tech stack that I want to use:
 
 I have already found a dataset of around 7k recipes on kaggle. So I am all set for development.
 
-Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually create a cluster for elastic search. 
+Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually do a full fledgfor elastic search. 
 
 I am aiming for a single command deployment. 
 
@@ -83,7 +83,8 @@ Do this-
 4. Kaggle dataset
 5. Github repo
 6. Distroless jdk name and image size comparison
-7. 
+7. Spring boot dockerizing tutorial link
+8. Elastic docker link
 
 
 
@@ -91,6 +92,6 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTEzNzMzNTcsLTczOTExNzc1NSwtMT
-Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
+eyJoaXN0b3J5IjpbMTkwNTg0OTY0NCwtNzM5MTE3NzU1LC0xND
+U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
