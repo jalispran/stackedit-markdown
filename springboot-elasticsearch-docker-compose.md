@@ -59,7 +59,9 @@ When running locally, you can specify `localhost:9092` for springboot to connect
 
 When running in a container, the hostname has to be replaced with the container name. So, the new address becomes `<elasticsearch-container-name>:9092`
 
-I dont want to remember this caveat everytime I need to deploy something. So I created an environment variable `ELASTIC_HOST` and I am setting its value in my `docker-compose.yml`. And I am reading it in my `application.yml` file
+I dont want to remember this caveat everytime I need to deploy something. So I created an environment variable, called it `ELASTIC_HOST`. I am setting its value in my `docker-compose.yml`. And I am reading it in my `application.yml` file.
+
+Phew! That felt nice. Earlier my application was not runniNow my application can run and connect to the elastic docker sometimes.
 
 
 
@@ -67,6 +69,6 @@ I dont want to remember this caveat everytime I need to deploy something. So I c
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzI3MzA1LC03MzkxMTc3NTUsLTE0NT
-U0MzUyOTcsMTAxNDQ0MTAyMV19
+eyJoaXN0b3J5IjpbLTExOTgwNDA3ODMsLTczOTExNzc1NSwtMT
+Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
 -->
