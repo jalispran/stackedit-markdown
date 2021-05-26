@@ -51,7 +51,7 @@ Finally, after wasting one day trying to fix this, I gave up and shifted to good
 
 5. Docker containers dont connect to other containers on their own
 
-When I started off, I did not know the
+When I started off, I did not know that you need special configuration to enable the containers to talk to each other. 
 
 
 
@@ -60,6 +60,6 @@ When I started off, I did not know the
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjgzODQ1MCwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbMTkxODE4MDY2MCwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
