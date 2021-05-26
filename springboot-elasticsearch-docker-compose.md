@@ -23,13 +23,17 @@ I quickly realised that for a setup like this, I will have to use `docker compos
 
 Docker is used to containerize your application while docker compose is a discriptor about how multiple containers behave in each others presence. Do they share a network? Do they share a volume? What about environment variables? In what order should they be run? Do you need to scale them? If yes, how many containers would you need? 
 
-So now, the plan has been modified a bi I am going to have two containers
+So now, the plan has been modified a bit, I am going to have two containers and I will run them using `docker compose up`. Great, I am still aiming for a single command deplyment. 
+
+2. Getting elasticsearch to run is amazingly easy with docker
+
+Just got to the elastic search website an
 
 
 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Njg3NjQyMCwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbMjAxMDI4NjYyMCwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
