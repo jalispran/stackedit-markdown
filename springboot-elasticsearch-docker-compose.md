@@ -90,10 +90,10 @@ Docker compose can not know the application readiness and hence this needs to be
 
 I am planning to go the recommended route of retrying the connection on failure. This functionality is not yet available in spring boot. There is an open issue about this [#4779](https://github.com/spring-projects/spring-boot/issues/4779). Meanwhile, I am planning to implement my own.
 
-As always, the source code is available on [github](https://github.com/jalispran/springboot-elasticsearch-docker). Check that out for the code and 
+As always, the source code is available on [github](https://github.com/jalispran/springboot-elasticsearch-docker). Check that out for the code and stay tuned for the retry mechanism. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQzODU1NDAsLTk0MDEyMTk3MywxMz
-EyOTAwMzIzLC04NTg2MTM1MzEsLTEzNDYzOTYwODcsLTExNjI0
-Mjg5MjMsMTIyOTM0MjU2MSwtNzM5MTE3NzU1LC0xNDU1NDM1Mj
-k3LDEwMTQ0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbLTk3ODMxOTc2NiwtOTQwMTIxOTczLDEzMT
+I5MDAzMjMsLTg1ODYxMzUzMSwtMTM0NjM5NjA4NywtMTE2MjQy
+ODkyMywxMjI5MzQyNTYxLC03MzkxMTc3NTUsLTE0NTU0MzUyOT
+csMTAxNDQ0MTAyMV19
 -->
