@@ -63,7 +63,7 @@ I dont want to remember this caveat everytime I need to deploy something. So I c
 
 That felt nice. Earlier my application was not running but now my application can run and connect to the elastic docker sometimes. Thats progress!
 
-B
+By the way, I just found out that docker compose creates a `default` network. So maybe I did not have to create a bridge network and maybe the containers can actually talk to each other on their own. 
 
 The problem now I face is, spring boot 
 
@@ -73,6 +73,6 @@ The problem now I face is, spring boot
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODMwNDk1MywtNzM5MTE3NzU1LC0xND
-U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbNzQ0OTU5NDMzLC03MzkxMTc3NTUsLTE0NT
+U0MzUyOTcsMTAxNDQ0MTAyMV19
 -->
