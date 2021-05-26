@@ -33,13 +33,15 @@ Just got to the elastic search website and you will find a `docker run` command 
 
 4. Dockerizing Spring Boot is once you know what not to do
 
-This is a no brainer. But I sti
+Even though Spring has a great tutorial about how to dockerize spring boot apps and dividing them in layers for efficiency, I still screwed up mine and had to waste a day figuring out what was the issue. 
+
+
 
 
 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTYxMTE4MCwtNzM5MTE3NzU1LC0xND
-U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbLTE1Njg0NjU5NjYsLTczOTExNzc1NSwtMT
+Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
 -->
