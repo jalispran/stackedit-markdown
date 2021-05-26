@@ -47,6 +47,8 @@ Just go to the [elastic search website](https://www.elastic.co/guide/en/elastics
 
 Spring has a [great tutorial](https://spring.io/guides/gs/spring-boot-docker/) about how to dockerize spring boot apps and how to divide them in layers for efficiency. But I still screwed up mine and had to waste a day figuring out what was the issue. 
 
+> The springboot tutorial says there is an issue with Do
+
 The weirdest thing was, my app would run perfectly fine in development mode. But it would fail when I ran it in container.
 
 There is a reason for it (or thats what I thought at the time). To keep the image size to a minimum, I was using a distroless java 11 base image. On the other hand, on my dev machine I was using `OpenJdk 11`. This java 11 distroless image was buggy as far as I can tell. 
@@ -90,7 +92,7 @@ I am planning to go the recommended route of retrying the connection on failure.
 
 As always, the source code is available on github.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY4NTEyNTksMTMxMjkwMDMyMywtOD
+eyJoaXN0b3J5IjpbLTEzNTg2ODU5MTIsMTMxMjkwMDMyMywtOD
 U4NjEzNTMxLC0xMzQ2Mzk2MDg3LC0xMTYyNDI4OTIzLDEyMjkz
 NDI1NjEsLTczOTExNzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQxMD
 IxXX0=
