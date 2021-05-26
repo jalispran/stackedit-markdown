@@ -44,7 +44,9 @@ Spring has a great tutorial about how to dockerize spring boot apps and how to d
 In my case, to keep the image size to a minimum, I was using a distroless java 11 image and ended up getting the following error. 
 📷📸📷📸📷📸📸📷📸📷📸📷📸📷📸📷📸📷📸📷📸
 
-Finally, after wasting one day trying to fix this, I finally gave up and shifted to good old `openJdk:11`. Although I had to compromise the image size (which increased 3x), atl
+The weirdest thing was, my app would run perfectly fine in development mode. But it would fail when I ran it in container.
+
+Finally, after wasting one day trying to fix this, I finally gave up and shifted to good old `openJdk:11`. Although I had to compromise the image size (which increased 3x), atleast I got the service running.
 
 
 
@@ -53,6 +55,6 @@ Finally, after wasting one day trying to fix this, I finally gave up and shifted
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzMzNjg5OCwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbMTgwMjU1MDA0MCwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
