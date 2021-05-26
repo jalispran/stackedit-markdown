@@ -61,7 +61,11 @@ When running in a container, the hostname has to be replaced with the container 
 
 I dont want to remember this caveat everytime I need to deploy something. So I created an environment variable, called it `ELASTIC_HOST`. I am setting its value in my `docker-compose.yml`. And I am reading it in my `application.yml` file.
 
-Phew! That felt nice. Earlier my application was not runniNow my application can run and connect to the elastic docker sometimes.
+That felt nice. Earlier my application was not running but now my application can run and connect to the elastic docker sometimes. Thats progress!
+
+B
+
+The problem now I face is, spring boot 
 
 
 
@@ -69,6 +73,6 @@ Phew! That felt nice. Earlier my application was not runniNow my application can
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTgwNDA3ODMsLTczOTExNzc1NSwtMT
-Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
+eyJoaXN0b3J5IjpbMjAzODMwNDk1MywtNzM5MTE3NzU1LC0xND
+U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
