@@ -29,13 +29,14 @@ So now, the plan has been modified a bit, I am going to have two containers and 
 
 3. Getting elasticsearch to run is amazingly easy with docker
 
-Just got to the elastic search website and you will find a `docker run` command for a single node development 
+Just got to the elastic search website and you will find a `docker run` command for a single node dev deployment and a `docker compose` for a more elaborate 3 node cluster setup. I did the best of both and selected single node deployment with docker compose.
+
 
 
 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTQ1NDYwNCwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbMTk2NjU4NzA1OSwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
