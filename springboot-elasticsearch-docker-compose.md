@@ -9,7 +9,11 @@ This is the tech stack that I want to use:
 
 I have already found a dataset of around 7k recipes on kaggle. So I am all set for development.
 
-Now, this application is not mwith dockeeant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually create a cluster for elastic search. Obviously, I am going the docker route. I am going to dockerize my application and run it with `docker run` command, or at least thats the plan.
+Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually create a cluster for elastic search. 
+
+I want to keep the deployment limited to one single command. 
+
+Obviously, I am going the docker route. I am going to dockerize my application and run it with `docker run` command, or at least thats the plan.
 
 This is my development environment:
 * Mac Mini M1 with 16GB Memory
@@ -19,7 +23,7 @@ This is my development environment:
 
 So the following is my learning from setting all this up. 
 
-1. Docker is now supported for Apple Silicon 🤩
+1. Docker now has sufor Apple Silicon 🤩
 
 2. Use docker compose
 I quickly realised that for a setup like this, I will have to use `docker compose`. If you are new to docker or docker compose, let me quickly clarify this.
@@ -43,6 +47,6 @@ Even though Spring has a great tutorial about how to dockerize spring boot apps 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTczMzg1MCwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbMTI0NzkzMzYwMywtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
