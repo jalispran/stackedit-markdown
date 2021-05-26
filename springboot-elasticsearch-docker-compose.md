@@ -47,7 +47,7 @@ Just go to the [elastic search website](https://www.elastic.co/guide/en/elastics
 
 Spring has a [great tutorial](https://spring.io/guides/gs/spring-boot-docker/) about how to dockerize spring boot apps and how to divide them in layers for efficiency. But I still screwed up mine and had to waste a day figuring out what was the issue. 
 
-> The springboot tutorial says there is an issue with Do
+> The springboot tutorial says there is a limitation with Docker for Mac. However, 
 
 The weirdest thing was, my app would run perfectly fine in development mode. But it would fail when I ran it in container.
 
@@ -92,8 +92,8 @@ I am planning to go the recommended route of retrying the connection on failure.
 
 As always, the source code is available on github.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg2ODU5MTIsMTMxMjkwMDMyMywtOD
-U4NjEzNTMxLC0xMzQ2Mzk2MDg3LC0xMTYyNDI4OTIzLDEyMjkz
-NDI1NjEsLTczOTExNzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQxMD
-IxXX0=
+eyJoaXN0b3J5IjpbMTQ2NTU0NzQ1NiwxMzEyOTAwMzIzLC04NT
+g2MTM1MzEsLTEzNDYzOTYwODcsLTExNjI0Mjg5MjMsMTIyOTM0
+MjU2MSwtNzM5MTE3NzU1LC0xNDU1NDM1Mjk3LDEwMTQ0NDEwMj
+FdfQ==
 -->
