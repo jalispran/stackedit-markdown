@@ -54,7 +54,7 @@ Finally, after wasting one day trying to fix this, I gave up and shifted to good
 (Un)fortunately, I am unable to reproduce the same error anymore so I can not upload a screenshot. However, if you are feeling curious, this is what I was using `gcr.io/distroless/java:11`. Here is my observation
 |Base Image| Final Image Size  |
 |--|--|
-|  |  |
+|`gcr.io/distroless/java:11`|257 MB  |
 
 
 5. Docker containers don't connect to other containers on their own. Or do they? 🤔
@@ -100,7 +100,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzY4NTU1MywtODU4NjEzNTMxLC0xMz
+eyJoaXN0b3J5IjpbLTQ1MDQzMjU0NCwtODU4NjEzNTMxLC0xMz
 Q2Mzk2MDg3LC0xMTYyNDI4OTIzLDEyMjkzNDI1NjEsLTczOTEx
 Nzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQxMDIxXX0=
 -->
