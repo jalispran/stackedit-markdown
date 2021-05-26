@@ -84,32 +84,14 @@ However, this wont work the way you expect it to. And its understandable.
 
 So `depends_on` will wait for the container to run before it starts the dependant containers. However, a container in running state does not mean that the application is in running state. For example, in case of a database, the database container might be in running state but that does not mean that the database is accepting connections yet. 
 
-Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to retry on connection failure. However, the more widely used approach seems to be a busy waiting scripts ([wait-for-it](https://github.com/vishnubob/wait-for-it), [dockerize](https://github.com/jwilder/dockerize), sh-compatible [wait-for](https://github.com/Eficode/wait-for), or [RelayAndContainers](https://github.com/jasonsychau/RelayAndContainers) template) that keep checking if the service is up. 
+Docker compose can not know the application readiness and hence this needs to be handled by the developer. The recommended way is to retry on connection failure. However, the more widely used approach seems to be a busy waiting scripts ([wait-for-it](https://github.com/vishnubob/wait-for-it), [dockerize](https://github.com/jwilder/dockerize) etc) that keep checking if the service is up. 
 
-I am planning to go the recommended route of retrying the connection on failure. This functionality is not yet available in spring boot. There is an open issue about this [#4779](https://github.com/spring-projects/spring-boot/issues/4779). Meanwhile, i will implement my own.
+I am planning to go the recommended route of retrying the connection on failure. This functionality is not yet available in spring boot. There is an open issue about this [#4779](https://github.com/spring-projects/spring-boot/issues/4779). Meanwhile, I am planning to implement my own.
 
-
-
-
-Do this-
-1. Wait for script links
-2. Github retry issue link
-3. Error snapshot
-4. Kaggle dataset
-5. Github repo
-6. Distroless jdk name and image size comparison
-7. Spring boot dockerizing tutorial link
-8. Elastic docker link
-
-
-
-
-
-I am planning o
-
+As always, the source code is available on github.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjU4NzkwMiwxMzEyOTAwMzIzLC04NT
-g2MTM1MzEsLTEzNDYzOTYwODcsLTExNjI0Mjg5MjMsMTIyOTM0
-MjU2MSwtNzM5MTE3NzU1LC0xNDU1NDM1Mjk3LDEwMTQ0NDEwMj
-FdfQ==
+eyJoaXN0b3J5IjpbLTEwMDY4NTEyNTksMTMxMjkwMDMyMywtOD
+U4NjEzNTMxLC0xMzQ2Mzk2MDg3LC0xMTYyNDI4OTIzLDEyMjkz
+NDI1NjEsLTczOTExNzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQxMD
+IxXX0=
 -->
