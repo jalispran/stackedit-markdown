@@ -43,15 +43,15 @@ Just go to the elastic search website and you will find a `docker run` command f
 
 4. Dockerizing Spring Boot is easy once you know what not to do
 
-Spring has a great tutorial about how to dockerize spring boot apps and how to divide them in layers for efficiency. But I still screwed up mine and had to waste a day figuring out what was the issue. 
-
-📷📸📷📸📷📸📸📷📸📷📸📷📸📷📸📷📸📷📸📷📸
+Spring has a [great tutorial](https://spring.io/guides/gs/spring-boot-docker/) about how to dockerize spring boot apps and how to divide them in layers for efficiency. But I still screwed up mine and had to waste a day figuring out what was the issue. 
 
 The weirdest thing was, my app would run perfectly fine in development mode. But it would fail when I ran it in container.
 
 There is a reson for it. To keep the image size to a minimum, I was using a distroless java 11 image. On the other hand, on my dev machine I was using `OpenJdk 11`. This java 11 distroless image was buggy as far as I can tell. 
 
 Finally, after wasting one day trying to fix this, I gave up and shifted to good old `openJdk:11`. Although I had to compromise the image size (which increased 3x), atleast I got the service running.
+
+(Un)fortunately, i am 
 
 5. Docker containers don't connect to other containers on their own. Or do they? 🤔
 
@@ -96,7 +96,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODYxMzUzMSwtMTM0NjM5NjA4NywtMT
-E2MjQyODkyMywxMjI5MzQyNTYxLC03MzkxMTc3NTUsLTE0NTU0
-MzUyOTcsMTAxNDQ0MTAyMV19
+eyJoaXN0b3J5IjpbOTg4NTA5NjMsLTg1ODYxMzUzMSwtMTM0Nj
+M5NjA4NywtMTE2MjQyODkyMywxMjI5MzQyNTYxLC03MzkxMTc3
+NTUsLTE0NTU0MzUyOTcsMTAxNDQ0MTAyMV19
 -->
