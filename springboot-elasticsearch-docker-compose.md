@@ -11,7 +11,7 @@ I have already found a dataset of around 7k recipes on kaggle. So I am all set f
 
 Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually create a cluster for elastic search. 
 
-I want to keep the deployment limited to one single command. 
+I am aiming for a single command deployment. 
 
 Obviously, I am going the docker route. I am going to dockerize my application and run it with `docker run` command, or at least thats the plan.
 
@@ -26,6 +26,7 @@ So the following is my learning from setting all this up.
 1. Docker now has support for Apple Silicon 🤩
 
 2. Use docker compose
+
 I quickly realised that for a setup like this, I will have to use `docker compose`. If you are new to docker or docker compose, let me quickly clarify this.
 
 Docker is used to containerize your application while docker compose is a discriptor about how multiple containers behave in each others presence. Do they share a network? Do they share a volume? What about environment variables? In what order should they be run? Do you need to scale them? If yes, how many containers would you need? 
@@ -47,6 +48,6 @@ Even though Spring has a great tutorial about how to dockerize spring boot apps 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzOTQxNjgyLC03MzkxMTc3NTUsLTE0NT
-U0MzUyOTcsMTAxNDQ0MTAyMV19
+eyJoaXN0b3J5IjpbMTAyOTM4OTk5MSwtNzM5MTE3NzU1LC0xND
+U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
