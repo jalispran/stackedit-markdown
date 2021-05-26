@@ -19,13 +19,15 @@ This is my development environment:
 So the following is my learning from setting all this up. 
 
 1. Use docker compose
-I quickly realised that for a setup like this, I will have to use `docker compose`. If you are new to docker or docker compose, let me quickly 
+I quickly realised that for a setup like this, I will have to use `docker compose`. If you are new to docker or docker compose, let me quickly clarify this.
+
+Docker is used to containerize your application while docker compose is a discriptor about how multiple containers behave in each others presence. Do they share a network? Do they share a volume? What about environment variables
 
 
 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjMyMDEwMDksLTczOTExNzc1NSwtMT
+eyJoaXN0b3J5IjpbLTEwMzQ2MTM5ODMsLTczOTExNzc1NSwtMT
 Q1NTQzNTI5NywxMDE0NDQxMDIxXX0=
 -->
