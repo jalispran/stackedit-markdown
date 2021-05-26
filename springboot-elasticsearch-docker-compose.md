@@ -23,13 +23,11 @@ This is my development environment:
 
 So the following is my learning from setting all this up. 
 
-1. Docker now has support for Apple Silicon 🤩
+1. Docker now has support for Apple Silicon 🤩🤩🤩
 
-However, it still requires `Rosetta 2` as some binaries are yet to make the transition to Apple Silicon. If you need, you can use this command to install rosetta.
+However, it still requires `Rosetta 2` as some binaries are yet to make the transition to Apple Silicon. If you need, you can use this command to install Rosetta 2.
 
-    softwareupdate 
-
- 
+    softwareupdate --install-rosetta
 
 2. Use docker compose
 
@@ -98,7 +96,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxODM5NTUzLC0xMTYyNDI4OTIzLDEyMj
-kzNDI1NjEsLTczOTExNzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQx
-MDIxXX0=
+eyJoaXN0b3J5IjpbLTEzNDYzOTYwODcsLTExNjI0Mjg5MjMsMT
+IyOTM0MjU2MSwtNzM5MTE3NzU1LC0xNDU1NDM1Mjk3LDEwMTQ0
+NDEwMjFdfQ==
 -->
