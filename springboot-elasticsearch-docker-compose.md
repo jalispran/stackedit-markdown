@@ -1,6 +1,6 @@
 ## Dockerizing Springboot Elasticsearch application with docker compose
 
-So all this started when I decided to create an application that suggests food recipes based on the ingredients you have at your home. 
+So all this started when I decided to create an application that recommends food recipes based on the ingredients you have at your home. 
 
 This is the tech stack that I want to use:
 * Spring Boot for a RESTful API Server
@@ -16,8 +16,11 @@ This is my development environment:
 * Java 11
 * Spring Boot 2.5.0
 
-I am planning on keeping
+So the following is my learning from setting all this up. 
+
+1. 
+I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTExNzc1NSwtMTQ1NTQzNTI5NywxMD
-E0NDQxMDIxXX0=
+eyJoaXN0b3J5IjpbNjIwNTE1NzM5LC03MzkxMTc3NTUsLTE0NT
+U0MzUyOTcsMTAxNDQ0MTAyMV19
 -->
