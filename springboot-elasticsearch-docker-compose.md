@@ -7,7 +7,7 @@ This is the tech stack that I want to use:
 * React Native with Expo for frontend and
 * Elastic Search for full text search queries on the recipes. 
 
-I have already found a dataset of around 7k recipes on kaggle. So I am all set for development.
+I have already found a [dataset of around 7k recipes on kaggle](https://www.kaggle.com/kanishk307/6000-indian-food-recipes-dataset). So I am all set for development.
 
 Now, this application is not meant to be an application for the general public. Its meant to be run on my private server in a private network for some limited number of people. Hence, I want to keep the deployment and maintainance overhead to a minimum and not manually do a full fledged for elastic search cluster deployment.
 
@@ -92,6 +92,7 @@ Do this-
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI0Mjg5MjMsMTIyOTM0MjU2MSwtNz
-M5MTE3NzU1LC0xNDU1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbOTc4MTczNzExLC0xMTYyNDI4OTIzLDEyMj
+kzNDI1NjEsLTczOTExNzc1NSwtMTQ1NTQzNTI5NywxMDE0NDQx
+MDIxXX0=
 -->
