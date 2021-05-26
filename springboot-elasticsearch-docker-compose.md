@@ -31,12 +31,15 @@ So now, the plan has been modified a bit, I am going to have two containers and 
 
 Just got to the elastic search website and you will find a `docker run` command for a single node dev deployment and a `docker compose` for a more elaborate 3 node cluster setup. I did the best of both and selected single node deployment with docker compose.
 
+4. Dockerizing Spring Boot is once you know what not to do
+
+This is a no brainer. But I sti
 
 
 
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjU4NzA1OSwtNzM5MTE3NzU1LC0xND
+eyJoaXN0b3J5IjpbLTMwOTYxMTE4MCwtNzM5MTE3NzU1LC0xND
 U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
 -->
