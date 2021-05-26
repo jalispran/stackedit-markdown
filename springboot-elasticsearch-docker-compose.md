@@ -49,7 +49,7 @@ There is a reson for it. To keep the image size to a minimum, I was using a dist
 
 Finally, after wasting one day trying to fix this, I gave up and shifted to good old `openJdk:11`. Although I had to compromise the image size (which increased 3x), atleast I got the service running.
 
-5. Docker containers dont connect to other containers on their own
+5. Docker containers don't connect to other containers on their own
 
 When I started off, I did not know that you need special configuration to enable the containers to talk to each other. 
 
@@ -60,6 +60,6 @@ When I started off, I did not know that you need special configuration to enable
 
 I am planning o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODE4MDY2MCwtNzM5MTE3NzU1LC0xND
-U1NDM1Mjk3LDEwMTQ0NDEwMjFdfQ==
+eyJoaXN0b3J5IjpbMTQ1NTI4MzUxLC03MzkxMTc3NTUsLTE0NT
+U0MzUyOTcsMTAxNDQ0MTAyMV19
 -->
